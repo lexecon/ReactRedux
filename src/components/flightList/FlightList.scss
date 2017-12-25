@@ -1,0 +1,17 @@
+.flight-list {
+  position: relative;
+  text-align: center;
+  overflow-x: auto;
+  height: 100%;
+}
+.flight-item {
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+.message {
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+}
