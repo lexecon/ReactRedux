@@ -19,7 +19,7 @@ export const receiveFlight = flights => ({
 
 export const getFlight = () => (dispatch) => {
   dispatch(requestFlight());
-  return fetch('/data.json')
+  return fetch('data.json')
     .then(response => (response.json()))
     .then((data) => {
       dispatch(receiveFlight(data.flights));

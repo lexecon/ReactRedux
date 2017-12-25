@@ -2,7 +2,6 @@ require('babel-register');
 const config = require('../webpack.config.babel.js').default({
   dev: true,
   production: false,
-  storybook: true,
 });
 
 module.exports = {

@@ -10,7 +10,6 @@ import CompressionPlugin from 'compression-webpack-plugin';
 const defaultEnv = {
   dev: true,
   production: false,
-  storybook: false,
 };
 
 export default (env = defaultEnv) => ({
@@ -20,7 +19,6 @@ export default (env = defaultEnv) => ({
   output: {
     path: path.resolve('build'),
     filename: 'app.[hash:6].js',
-    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
